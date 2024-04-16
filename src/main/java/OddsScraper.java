@@ -26,7 +26,7 @@ public class OddsScraper {
         matchController.populateMatchesList(urlBody,matchesList);
         try {
             excelWriter.writeInExcel(matchesList, filePath);
-            System.out.println("Succesfully written in Excel file.");
+            System.out.println("Successfully written in Excel file.");
         } catch (IOException ex){
             System.out.println("Error writing in Excel file.");
         }
