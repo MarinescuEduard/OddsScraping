@@ -1,3 +1,5 @@
+package model;
+
 public class MatchModel {
     private String homeTeam;
     private String awayTeam;
@@ -56,7 +58,7 @@ public class MatchModel {
 
     @Override
     public String toString() {
-        return "MatchModel{" +
+        return "model.MatchModel{" +
                 "homeTeam='" + homeTeam + '\'' +
                 ", awayTeam='" + awayTeam + '\'' +
                 ", sportGroup='" + sportGroup + '\'' +
