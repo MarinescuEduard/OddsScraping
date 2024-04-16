@@ -39,3 +39,4 @@ build/
 
 ### Output file
 *.xlsx
+/output.xlsx
