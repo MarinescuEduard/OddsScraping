@@ -1,3 +1,9 @@
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.List;
+
 public class MatchModel {
     private String homeTeam;
     private String awayTeam;
@@ -65,4 +71,6 @@ public class MatchModel {
                 ", sportTournament='" + sportTournament + '\'' +
                 '}';
     }
+
+
 }
