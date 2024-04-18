@@ -18,9 +18,11 @@ This project will gather the match odds for all prematch e-sports events that ar
 ## Usage
 
 The use of this project is fairly straight forward. You can just run the program and an excel file called "output.xlsx" will be created.
+
 ![excelfile_Screenshot](screenshots/excelfile.png)
 
 We can open this excel file and see all available e-sports odds on Unibet site with the decimal format.
+
 ![excelodds_Screenshot](screenshots/excelodds.png)
 
 
